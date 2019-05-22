@@ -1,0 +1,16 @@
+﻿spring: 
+  profiles: 
+    active: 
+      - dev
+---
+spring: 
+  profiles: dev    #开发环境
+  application: 
+    name: miscroservicecloud-config-xzp-dev
+---
+spring: 
+  profiles: test    #开发环境
+  application: 
+    name: miscroservicecloud-config-xzp-test
+
+#   要保存为utf-8格式
